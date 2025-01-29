@@ -3,9 +3,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #2c136d;
 
+}
+
+.logo-img{
+    display: flex;
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.section-1{
+    background-color: #181818;
 }
 
 .section-text{
