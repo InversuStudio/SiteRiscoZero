@@ -1,0 +1,6 @@
+Adicionar animação no carrossel
+Adicionar os textos gerais da página
+Adicionar forma de contato que funcione como o esperado
+Atualizar a área de jogos
+Adicionar opções da comunidade
+Adicionar cores de fundo para cada jogo
