@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -16,7 +19,7 @@
             <p>GAME STUDIOS</p>
         </div>
         <nav>
-            <ul class="nav-menu">
+            <ul class="white-text-menu">
                 <li><a href="#sobre" class="nav-link">SOBRE</a></li>
                 <li><a href="#jogos" class="nav-link">JOGOS</a></li>
                 <li><a href="#comunidade" class="nav-link">COMUNIDADE</a></li>
@@ -43,18 +46,24 @@
     <main>
         <!-- Seção SOBRE -->
         <section id="sobre">
-            <h2>QUEM SOMOS?</h2>
+            <div class="section-text">
+                <h2>QUEM SOMOS?</h2>
+            </div>
             <div class="about-content">
                 <div class="about-card"></div>
                 <div class="about-card"></div>
                 <div class="about-card"></div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <div class="common-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
         </section>
 
         <!-- Seção JOGOS -->
         <section id="jogos">
-            <h2>OS JOGOS</h2>
+            <div class="section-text">
+                <h2>OS JOGOS</h2>
+            </div>
             <div class="games">
                 <div class="game-card">
                     <h3>Cidade em Alerta</h3>
@@ -67,17 +76,24 @@
 
         <!-- Seção COMUNIDADE -->
         <section id="comunidade">
-            <h2>PARTICIPE DA COMUNIDADE</h2>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <div class="section-text">
+                <h2>PARTICIPE DA COMUNIDADE</h2>
+            </div>
+            <div class="common-text">
+                <p>Lorem ipsum dolor sit amet...</p>
+            </div>
         </section>
 
         <!-- Seção CONTATO -->
         <section id="contato">
-            <h2>CONTATO</h2>
+            <div class="section-text">
+                <h2>CONTATO</h2>
+            </div>    
             <div class="contact-container">
-                <div class="contact-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare metus justo, tempor vestibulum sem porttitor eu. Cras varius tincidunt tortor, ut volutpat nulla egestas quis. Morbi vel diam ac massa rutrum suscipit.</p>
+                <div class="common-text">
+                    <p>Entre em contato conosco através de nossos meios de comunicação!.</p>
                 </div>
+                <br>
                 <form class="contact-form">
                     <input type="text" placeholder="Nome" required>
                     <input type="email" placeholder="E-mail" required>
@@ -90,7 +106,9 @@
 
     <!-- Rodapé -->
     <footer class="site-footer">
-        <p>© 2025 Inversu Game Studios. Todos os direitos reservados.</p>
+        <div class="white-text">
+            <p>© 2025 Inversu Game Studios. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <!-- Scripts -->
