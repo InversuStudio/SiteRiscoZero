@@ -130,6 +130,10 @@ section {
     justify-content: center;
     border: 1px solid #ccc;
     border-radius: 8px;
+    font-family: "Fugaz One", serif;
+    font-style: normal;
+    font-size: 16px;
+    color:#181818
 }
 
 /* Rodapé */
