@@ -2,6 +2,8 @@ CORES:
 roxo: #521179
 verde: #1FD400
 
+FONTE: Gothan
+
 Adicionar animação no carrossel
 Adicionar forma de contato que funcione como o esperado
 Atualizar a área de jogos
