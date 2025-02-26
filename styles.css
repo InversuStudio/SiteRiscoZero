@@ -1,11 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Cabeçalho */
+
+
 .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
     background-color: #2c136d;
-
+    overflow-x: hidden;
 }
 
 .logo-img{
@@ -31,7 +40,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    color:#181818
+    max-width: 800px;
+    color:#181818;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto dentro do container */
 }
 
 .white-text{
