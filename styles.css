@@ -35,6 +35,15 @@
     color:#2c136d
 }
 
+.support-text{
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:#1FD400;
+    text-decoration:none;
+}
+
 .common-text{
     font-family: "Fugaz One", serif;
     font-weight: 400;
@@ -95,7 +104,7 @@
 .nav-link {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Carrossel */
@@ -219,6 +228,63 @@ html {
     scroll-behavior: smooth;
 }
 
+/* LANDING PAGE */
+
+.landing-container {
+    position: relative; /* Garante que os elementos internos sigam sua posição */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Evita rolagem extra */
+}
+
+.landing-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém a proporção e cobre toda a tela */
+    display: block;
+}
+
+.landing-button {
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    background: #1FD400;
+    border: none;
+    cursor: pointer;
+    border-radius: 15%;
+    margin-top: 40px;
+    text-decoration:none;
+}
+
+.landing-img2 {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color:#ffffff;
+    margin-top: 40px;
+}
 
 
-
+.landing-text {
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    transform: translate(-50%, -50%); 
+    text-align: left; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    color:#ffffff;
+    margin-top: 40px;
+}
