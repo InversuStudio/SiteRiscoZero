@@ -219,3 +219,64 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
+/* imagem inicial */
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4B0082;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#loading-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Botão visível exatamente em cima do "INICIAR" */
+#iniciar-btn {
+    position: absolute;
+    bottom: 32%;  /* Ajuste para alinhar verticalmente */
+    left: 5%;    /* Ajuste para alinhar horizontalmente */
+    width: 15%;   /* Ajuste a largura conforme necessário */
+    height: 7%;   /* Ajuste a altura conforme necessário */
+    background: #32CD32;  /* Verde semelhante ao da imagem */
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    opacity: 0.8; /* Transparência para facilitar o ajuste */
+}
+
+
+#site-content {
+    display: none;
+    padding: 20px;
+}
+
+
+
