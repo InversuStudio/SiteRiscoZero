@@ -65,6 +65,14 @@
     gap: 48px;
 }
 
+.contact-text{
+    font-family: "Fugaz One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color:#2c136d
+}
+
 
 .logo h1 {
     margin: 0;
