@@ -188,6 +188,24 @@ section {
 }
 
 
+.row {
+    display: flex; /* Alinha as colunas lado a lado */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Alinha as imagens verticalmente */
+    padding-top: 3%;
+    gap: 3px;
+}
+
+.column {
+    text-align: center; /* Centraliza o conteúdo das colunas */
+}
+
+.column img {
+    width: 20%; /* Ajuste o tamanho das imagens */
+}
+
+
+
 /* Suavização de rolagem */
 html {
     scroll-behavior: smooth;
