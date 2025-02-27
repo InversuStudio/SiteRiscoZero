@@ -103,21 +103,3 @@ $(document).ready(function() {
     });
 });
 
-
-
-// imagem inicial
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const iniciarBtn = document.getElementById('iniciar-btn');
-    const loadingScreen = document.getElementById('loading-screen');
-    const siteContent = document.getElementById('site-content');
-
-    iniciarBtn.addEventListener('click', function() {
-        loadingScreen.style.display = 'none';
-        siteContent.style.display = 'block';
-        document.body.style.overflow = 'auto'; // Habilita a rolagem após clicar
-    });
-});
-
